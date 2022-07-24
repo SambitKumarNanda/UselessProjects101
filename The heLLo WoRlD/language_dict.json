@@ -1,0 +1,22 @@
+{
+    "languages": {
+        "python": {
+            "syntax": "print(\"HelLo WoRlD !!!\")",
+            "instruction": [
+                "How To Run :",
+                "",
+                "Using CLI : ",
+                "python -c \"print(\"HelLo WoRlD !!!\")\""
+            ]
+        },
+        "javascript": {
+            "syntax": "console.log(\"HelLo WoRlD !!!\")",
+            "instruction": [
+                "How To Run :",
+                "",
+                "Using NodeJS : ",
+                "node -e \"console.log(\"HelLo WoRlD !!!\")\""
+            ]
+        }
+    }
+}
