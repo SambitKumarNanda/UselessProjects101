@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Hello World Generator</title>
   </head>
-  <body class="bg-background-primary">
-    <header class="bg-background-secondary px-2 py-4">
+  <body class="bg-background-primary flex items-center justify-center h-screen">
+    <header class="bg-background-secondary px-16 py-10 shadow-xl rounded-md">
       <h1
-        class="font-bold text-3xl uppercase bg-background-secondary text-color-primary mb-2"
+        class="font-bold text-3xl uppercase bg-background-secondary text-text-color-primary mb-8"
       >
         Hello World Generator
       </h1>
-      <select name="Language" id="drop-down-list">
-        <option value="python">Python</option>
-        <option value="javascript">JavaScript</option>
-        <option value="java">Java</option>
-      </select>
-      <button class="px-3 py-2 rounded-full bg-background-primary">
-        Generate
-      </button>
-      <div>
-        <p>print("Hello World")</p>
+      <div class="flex justify-between">
+        <select name="Language" id="drop-down-list" class="w-1/2">
+          <option value="">Select a language</option>
+          <option value="python">Python</option>
+          <option value="javascript">JavaScript</option>
+          <option value="java">Java</option>
+        </select>
+        <button
+          class="px-3 py-2 rounded-full bg-background-primary uppercase text-sm hover:bg-background-primary/10 hover:text-white transition ease-out 200"
+        >
+          Generate
+        </button>
+      </div>
+      <div class="mt-20 border-text-color-primary border-2 py-4 px-4 sm:hidden">
+        <p class="text-xl text-white">print("Hello World")</p>
       </div>
     </header>
   </body>
