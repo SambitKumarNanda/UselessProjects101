@@ -14,6 +14,12 @@ generate_btn.addEventListener("click", () => {
         break;
         case 'c': result_text.innerHTML=`printf("Hello World")`
         break;
+        case 'c++': result_text.innerHTML =` cout << "Hello World!";`
+        break;
+        case 'c#': result_text.innerHTML=`Console.WriteLine("Hello World!");`
+        break;
+        case 'java':result_text.innerHTML=`System.out.print("Hello World");`
+        break;
     }
 
   if (result.classList.contains("hidden")) {
