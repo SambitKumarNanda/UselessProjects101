@@ -8,17 +8,23 @@ generate_btn.addEventListener("click", () => {
     let selectedValue = document.getElementById("drop-down-list").value;
     console.log(selectedValue);
     switch (selectedValue){
-        case 'python': result_text.innerHTML=`print("Hello World")`
+        case 'python': result_text.innerHTML=`print("Hello World!")`
         break;
-        case 'javascript': result_text.innerHTML=`console.log("Hello World")`
+        case 'javascript': result_text.innerHTML=`console.log("Hello World!")`
         break;
-        case 'c': result_text.innerHTML=`printf("Hello World")`
+        case 'c': result_text.innerHTML=`printf("Hello World!")`
         break;
         case 'c++': result_text.innerHTML =` cout << "Hello World!";`
         break;
         case 'c#': result_text.innerHTML=`Console.WriteLine("Hello World!");`
         break;
-        case 'java':result_text.innerHTML=`System.out.print("Hello World");`
+        case 'java':result_text.innerHTML=`System.out.print("Hello World!");`
+        break;
+        case 'go':result_text.innerHTML=` fmt.Println("Hello World!")`
+        break;
+        case 'php':result_text.innerHTML=`<?php echo "My first PHP script!"; ?>`;
+        break;
+        case 'ruby':result_text.innerHTML=``;
         break;
     }
 
