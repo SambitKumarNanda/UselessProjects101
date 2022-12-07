@@ -1,3 +1,3 @@
 # UselessProjects101
 
-A collection of useless projects
+A collection of useless and random projects
